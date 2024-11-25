@@ -1,0 +1,43 @@
+/* 
+
+selector{
+
+}
+
+element {
+
+}
+#id{
+    
+}
+*/
+p{
+    background-color: rgb(0, 4, 255);
+}
+#p1{
+    background-color: cornflowerblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    text-transform: uppercase;
+}
+
+#p2{background-color: rgb(45, 3, 84);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    line-height: 150%;
+}
+
+
+#p3{background-color: darkblue;
+    font-family: cursive;
+    font-size: 40px;
+    line-height: 150%;
+    text-decoration: wavy;
+    font-style: italic;
+}
+
+.common{color: deeppink;
+}
+.other{ color: rgb(220, 217, 20);
+}
+

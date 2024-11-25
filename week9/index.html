@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link src="../week9/css/style.css">
+
+    <style>
+        label {
+            display: inline-block;
+            width: 11em;
+            text-align: right;
+        }
+
+        input{
+            margin-left: 1em;
+            margin-right: 0.5em;
+        }
+    </style>
+
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Registration</legend>
+        <label -for="fname">First Name:</label>
+        <input type="text" name="fname" id ="fname" autofocus><br>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lanme" id ="lname" autofocus><br>
+
+        <label for="emailAddress1">Email Address:</label>
+        <input type="email" name="emailAddress1" id ="emailAddress1" autofocus> placeholder="Enter Email address"<br>
+
+        <label for="emailAddress2">Re-enter Email Address:</label>
+        <input type="email" name="emailAddress2" id ="emailAddress2" autofocus><br>
+
+        <label for="Age">Age</label>
+        <input typr="number" name="age" id="age"><br>
+
+        <label for="dob">date of birth:</label>
+        <input type="date" name="dob" id="dob"><br>
+
+        <p> choose you fave course </p>
+        <label for="html">HTML</label>
+        <input type="radio" name="favCourse" id="html">
+
+        <label for="css">CSS</label>
+        <input type="radio" name="favCourse" id="css">
+
+        <label for="js">Javascript</label>
+        <input type="radio" name="favCourse" id="js">
+
+
+
+        <p>choose courses u r taking this sem</p>
+        <label for="html">HTML</label>
+        <input type="checkbox" name="html" id="html">
+
+        <label for="css">CSS</label>
+        <input type="checkbox" name="css" id="css">
+
+        <label for="js">Javascript</label>
+        <input type="checkbox" name="js" id="js">
+
+        
+        <input type="submit" value="Registration">
+        </fieldset>
+    </form>
+
+    <script src="js/main2.js"></script> 
+</body>
+</html>

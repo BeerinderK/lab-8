@@ -1,0 +1,25 @@
+body{
+    background-image: url(/images/flag.jpg);
+    opacity: 0.25%;
+    background-size: cover;
+
+}
+
+
+.two {
+    background-image: url(/images/flag.jpg);
+    background-size: cover;
+   
+}
+
+.three {
+    background-image: url(/images/flag.jpg);
+    background-repeat: repeat;
+    background-size: 30px 20px;
+}
+
+.four {
+    background-image: url(/images/flag.jpg);
+    background-repeat: repeat-y;
+    background-size: 30px 20px
+}

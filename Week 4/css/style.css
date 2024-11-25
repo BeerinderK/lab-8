@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(180, 229, 245);
+}
+
+#wrapper{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid darkblue;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px  aliceblue;
+    background-image: radial-gradient(circle, violet 10%, aliceblue 15%, cyan);
+}
+
+header{
+    background-color: rgb(232, 239, 247);
+    padding: 20px 30px;
+    border: 2px solid aliceblue;
+    border-radius: 30px;
+
+}
+
+h1{
+    border: 2px solid rgb(224, 240, 255);
+}
+
+h2{
+    background-color: rgb(182, 235, 235);
+    text-align: center;
+}
+
+p{
+    text-indent: 40px;
+}
+
+.bold{
+    font-weight: bold;
+}
+.red{
+    color: red;
+}
+footer{
+    padding-left: 20px;
+}
+

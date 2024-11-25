@@ -1,0 +1,13 @@
+{
+  "name": "lab5java",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Lab 5 for JavaScript class",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

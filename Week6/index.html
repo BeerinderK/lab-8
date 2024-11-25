@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 6 boiiiiii</title>
+
+    <style>
+        .column{
+            float: left;
+            height: 100vh;
+            width: 33.3%;
+            color:rgb(250, 167, 251)
+        }
+
+        .left{
+            background-color: rgb(122, 18, 220);
+        }
+
+        .right{
+            background-color: rgb(95, 8, 177);
+        }
+
+        .middle{
+            background-color:rgb(46, 2, 88);
+        }
+
+    </style>
+
+
+
+
+<style>
+
+    @media screen and(max-width:480px){
+        body{
+            background-color: brown;
+        }
+    }
+</style>
+
+
+
+<link rel="stylesheet" href="../css/style.css">
+    
+
+
+
+<link rel="stylesheet" media ="screen" href="../css/desktop.css">
+<link rel="stylesheet" media ="screen and (min-width: 481px) and (max-width:768px)" href="../css/mobile.css">
+<link rel="stylesheet" media ="screen and (min-width: 0px) and (max-width: 480px)" href="../css/mobile.css">
+
+
+
+
+@import url("desktop.css") screen;
+@import url("mobile.css") screen and (min-width:481px) and (max-width: 768px);
+@import url("tablet.css") screen and (min-width:0px) and (max-width:480px);
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body>
+
+    <div id="row">
+
+        <div class="column left">
+            Column1
+        </div>
+        <div class="column right">
+            Column2
+        </div>
+        <div class="column middle">
+            Column3
+        </div>
+    </div>
+    
+</body>
+</html>
